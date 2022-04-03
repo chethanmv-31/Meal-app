@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App {
+    background-color: #000;
+    color: #fff;
+    
+}
+
+body{
+    background-color: black;
+    color:#fff;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    margin: 1.5rem;
+    border-radius: 38px;
+    overflow: auto;
+    position: relative;
+    color: black;
+}
+
+/* main item styles here */
+.main {
+   text-align: center;
+   /* height: 300px; */
+}
+
+.search-bar {
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.mealbuttons {
+    margint: 14px;
+}
+/* poster style start here */
+.posterimage {
+    max-width: 100%;
+}
+.meals__poster{
+    height: 448px;
+    color: #fff;
+    object-fit: contain;
+}
+
+.poster_content {
+    margin-left: 30px;
+    padding-top: 70px;
+    height: 190px;
+}
+
+.poster_title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.poster_insta {
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    max-width: 360px;
+}
+
+.poster_button {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    padding-left: 2rem;
+    border-radius:0.2vw;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    background-color: rgba(51, 51, 0, 0.5);
+    padding-bottom: 0.5rem;
+}
+
+.poster_button:hover {
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}
